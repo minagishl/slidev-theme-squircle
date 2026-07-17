@@ -44,4 +44,4 @@ jobs:
           npm version ${{ steps.version.outputs.version }} --no-git-tag-version --no-commit-hooks
 
       - name: Publish to npm
-        run: npm publish --access public --no-git-checks
+        run: npm publish --access public --provenance

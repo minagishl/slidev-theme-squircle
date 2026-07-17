@@ -12,6 +12,10 @@
     "type": "git",
     "url": "https://github.com/minagishl/slidev-theme-squircle.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "files": [
     "components",
     "layouts",
